@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <title>Личный блог</title>
+  </head>
+  <body>
+  <header>
+
+      <!---->
+   <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light justify-content-between d-flex">
+         <a class="navbar-brand col-mb-6 logo-svg" href="index-2.html"><img src="img/icon11.png" alt="Anne-sweet" class="img-Anne responsive"></a>
+         <button class="navbar-toggler col-mb-6 " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item active">
+                  <a href="#articles" class="nav-link">Статьи</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#about-me" class="nav-link">Обо мне</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#portfolio" class="nav-link" name="Portfolio">Портфолио</a>
+               </li>
+               <li class="nav-item nav-m">
+                  <a href="#write-me" class="nav-link">Написать мне</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+   </div>
+   </header>
+
+   <main>
+   	<div class="container main-article">
+   		<div class="row justify-content-between mb-5 articles-around">
+   			<div class="column"><h1 class="title-all-articles" id="articles">Все статьи</h1></div>
+   			<div class="column">
+               <select class="filter" name="news-filter">
+                  <option value="travel">путешествия</option>
+                  <option value="city">город</option>
+                  <option value="book">книги</option>
+                  <option value="photo">фотографии</option>
+                  <option value="rec">рецепты</option>
+                  <option value="all" selected class="news">Все статьи</option>
+               </select>
+   			</div>
+   		</div>
+
+   		<div class="row mb-62">
+  <div class="col-md-4 col-sm-12 mb-sm-5">
+    <div class="card">
+    	<img class="card-img-top" src="img/MaskGroup.png" alt="Путешествие в Берлин">
+      <div class="card-body">
+        <h5 class="card-title blog-title">Путешествие в Берлин в августе</h5>
+        <p class="card-text blog-description">Летний месяц я провела в столице Германии<br> вместе с друзьями. И вот как это было!</p>
+        <div class="flex-cont">
+   					<span class="tegs">Теги: путешествия</span>
+   					<span class="date date-m"><time datetime="2020-09-29">29.09.2020</time></span>
+   	  </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-12 mb-sm-5">
+    <div class="card">
+    	<img class="card-img-top" src="img/MaskGroup2.png" alt="Где выпить колдбрю в Москве">
+      <div class="card-body">
+        <h5 class="card-title blog-title">Где выпить колдбрю в Москве</h5>
+        <p class="card-text blog-description">Собрала для вас список любимых кофейнь,<br> где подают лучший летний напиток.</p>
+        <div class="flex-cont">
+   					<span class="tegs">Теги: город</span>
+   					<span class="date date-m"><time datetime="2020-07-24">24.07.2020</time></span>
+   	  </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-12 mb-sm-5">
+    <div class="card">
+    	<img class="card-img-top" src="img/MaskGroup3.png" alt="книжные рекомендации">
+      <div class="card-body">
+        <h5 class="card-title blog-title">Прочитано: книжные рекомендации</h5>
+        <p class="card-text blog-description">Рассказываю о прочитанных за последнее<br> время книгах: фавориты и провалы.</p>
+        <div class="flex-cont">
+   					<span class="tegs">Теги: книги</span>
+   					<span class="date date-m"><time datetime="2020-07-15">15.07.2020</time></span>
+   					</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+   		<!-- карточки-->
+   		<div class="row">
+   			<div class="col-lg-6 col-md-12 col-sm-12 mb-sm-5">
+   		      <div class="card">
+               <!-- Изображение (фон карточки) -->
+                  <img class="card-img" src="img/film.png" alt="film">
+                  <!-- Текстовый контент (над изображением) -->
+                  <div class="card-img-overlay h-100 d-flex flex-column justify-content-end content-82">
+                  <!-- Текстовое содержимое карточки -->
+                     <h2 class="film-title">Снимки на плёнку</h2>
+   			         <p class="film-description">Поделилась с вами весенними фотографиями,<br> 
+   				         и секретами удачных снимков.</p>
+   				      <div class="flex-cont">
+   					      <span class="tegs-film">Теги: фотографии</span>
+   					      <span class="date-film"><time datetime="2020-06-29">29.06.2020</time></span>
+   			         </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 mb-sm-5">
+               <div class="card">
+               <!-- Изображение (фон карточки) -->
+                  <img class="card-img" src="img/recipes.png" alt="film">
+                  <!-- Текстовый контент (над изображением) -->
+                  <div class="card-img-overlay h-100 d-flex flex-column justify-content-end content-82">
+                  <!-- Текстовое содержимое карточки -->
+                     <h2 class="film-title card-title">Домашний чизкейк</h2>
+   			         <p class="film-description">Что может быть лучше чизкейка с сезонными<br> ягодами? Только домашний чизкейк!</p>
+   				      <div class="flex-cont">
+   					      <span class="tegs-recipes">Теги: рецепты</span>
+   					      <span class="date-recipes"><time datetime="2020-06-24">24.06.2020</time></span>
+   			         </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col text-center after-posts">
+            	<button type="button" class="btn btn-outline-secondary load-more">
+            		Показать еще
+            		<span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+            	</button>
+            </div>
+         </div>
+         <section class="about-me">
+            <h1 class="about-me__title" id="about-me">Обо мне</h1>
+         	<div class="row">
+         		<div class="col-md-6 col-sm-12 mb-sm-5 img-anne">
+         			<img src="img/MaskAnneGroup.png" alt="личный блог" class="responsive">
+         		</div>
+         		<div class="col-lg-6 col-md-12 col-sm-12 pl-sm-4 my-description">
+         			<p class="paragraf-description">Всем привет! Меня зовут Аня, и это мой личный блог.<br>
+                     Здесь ты найдёшь рассказы о моих путешествиях, снимки<br>
+                     на плёнку, рецепты, обзоры на книги. В общем, тексты о том,<br>
+                     что мне инетресно.
+                     <br><br>
+                     Я работаю копирайтером, поэтому мой блог — это ещё и моё<br>
+                     портфолио. Ниже размещены несколько моих лучших<br>
+                     рабочих текстов. Буду рада новым сотрудничествам!  Если вы хотите написать мне — это можно сделать в соцсетях<br>
+                     или через форму. Всегда приятно услышать обратную связь<br>
+                     от читателей и познакомиться поближе.
+                      <br><br> 
+                     Приятного чтения! </p>
+                     <p class="parafraf-cite">Я верю, что каждый раз пробуя новое,<br>
+                        выходящее за зону моего комфорта,<br>
+                        я действительно узнаю настояющую<br>
+                        себя. </p>
+         		</div>
+         	</div>
+         </section>
+
+         <section class="portfolio" id="Portfolio">
+         	<h1 class="portfolio__title" id="portfolio">Портфолио</h1>
+         	<div class="row">
+   			<div class="col-lg-4 col-md-12 col-sm-12 mb-sm-5">
+   		      <div class="card">
+               <!-- Изображение (фон карточки) -->
+                  <img class="card-img" src="img/MaskGroup111.png" alt="Блог HTML Academy">
+                  <!-- Текстовый контент (над изображением) -->
+                  <div class="card-img-overlay h-100 d-flex flex-column justify-content-center">
+                  <!-- Текстовое содержимое карточки -->
+                     <h2 class="HTMLAcademy-title card-title text-center">Блог HTML Academy</h2>
+                     <h2 class="HTMLAcademy-title-two card-title text-center align-baseline">«Как учиться продуктивно»</h2>
+   			         <p class="HTMLAcademy-description align-baseline">Про основные методы обучения,<br> которые помогут быстро и надолго<br> запомнить информацию.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 mb-sm-5">
+               <div class="card">
+               <!-- Изображение (фон карточки) -->
+                  <img class="card-img" src="img/MaskGroup222.png" alt="Журнал «LNK»">
+                  <!-- Текстовый контент (над изображением) -->
+                  <div class="card-img-overlay h-100 d-flex flex-column justify-content-center">
+                  <!-- Текстовое содержимое карточки -->
+                     <h2 class="LNK-title card-title text-center">Журнал «LNK»</h2>
+                     <h2 class="LNK-title-two card-title text-center">«Зачем поцелуи нужны<br> человеку? И какие они бывают»</h2>
+   			         <p class="LNK-description align-baseline">Поцелуи — повсеместная ежедневная<br> практика. Но зачем люди целуются?<br> Какие смыслы вкладывают в этот ритуал?<br> И где корни этой практики?</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 mb-sm-5">
+               <div class="card">
+               <!-- Изображение (фон карточки) -->
+                  <img class="card-img" src="img/MaskGroup333.png" alt="Журнал «Т — Л»">
+                  <!-- Текстовый контент (над изображением) -->
+                  <div class="card-img-overlay h-100 d-flex flex-column justify-content-center">
+                  <!-- Текстовое содержимое карточки -->
+                     <h2 class="T-L-title card-title text-center">Журнал «Т — Л»</h2>
+                     <h2 class="T-L-title-two card-title text-center">«Советы по эффективной<br> удалённой работе»</h2>
+   			         <p class="T-L-description">Поделилась лайфхаками, которые помогают<br> мне работать продуктивно из дома.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col text-center after-posts">
+            	<button type="button" class="btn btn-outline-secondary load-more">
+            		Показать еще
+            		<span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+            	</button>
+            </div>
+         </div>
+         </section>
+
+         <section class="write-me">
+         	<h1 class="write-me__title" id="write-me">Написать мне</h1>
+<form id="feedbackForm" action="https://echo.htmlacademy.ru/courses" method="post" class="comment-form">
+          <div class="form-row">
+            <div class="col-sm-6">
+              <!-- Имя пользователя -->
+              <div class="form-group">
+                <label for="name" class="control-label">Ваше имя</label>
+                <input id="name" type="text" name="name" class="form-control" value="" placeholder="Иван Иванов" minlength="2" maxlength="30" required="required">
+                <div class="invalid-feedback"></div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <!-- Email пользователя -->
+              <div class="form-group">
+                <label for="email" class="control-label">Email</label>
+                <input id="email" type="email" name="email" required="required" class="form-control" value="" placeholder="google@gmail.com">
+                <div class="invalid-feedback"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Сообщение пользователя -->
+          <div class="form-group">
+            <label for="message" class="control-label">Сообщение</label>
+            <textarea id="message" name="message" class="form-control comment-field comment-area" rows="10" placeholder="Напишите здесь ваше сообщение." minlength="20"
+              maxlength="500" required="required" required id="comment-textarea"></textarea>
+            <div class="invalid-feedback"></div>
+          </div>
+          <!-- Кнопка для отправки формы -->
+          <div class="text-center submit after-posts">
+            <button type="submit" class="btn btn-outline-secondary position-relative load-form button submit-button">Отправить</button>
+          </div>
+        </form>
+         </section>
+   	</div>
+   </main>
+   <footer>
+   	<div class="container">
+   		<nav class="navbar navbar-expand-lg navbar-fixed justify-content-center">
+   		<ul class="navbar-nav footer-menu">
+   			<li class="nav-item">
+   				<a href="#" class="nav-link">ВК</a>
+   			</li>
+   			<li class="nav-item">
+   				<a href="#" class="nav-link">Телеграм</a>
+   			</li>
+   			<li class="nav-item">
+   				<a href="#" class="nav-link">Инстаграм</a>
+   			</li>
+   			<li class="nav-item">
+   				<a href="#" class="nav-link">Твиттер</a>
+   			</li>
+   		</ul>
+   	</nav>
+   	</div>
+   </footer>
+  <script src="js/script.js"></script>
+  </body>
+  </html>

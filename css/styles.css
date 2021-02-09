@@ -1,0 +1,321 @@
+:root{
+    box-sizing: border-box;    
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    transition: .5s ease-in-out;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    width: 100%;
+}
+.nav-link{
+	font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 25px;
+   color: #2E2F22;
+}
+
+header{
+  background:url(../img/MaskGroupindex-2.png) no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 581px;
+  box-sizing: border-box;
+  background-position: center center; 
+}
+.nav-item{
+  margin-right: 83px;
+}
+.nav-m{
+  margin-right: 0px;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+.nav-item-social{
+  margin-right: 24px;
+}
+ul .nav-item-social:last-child{
+  margin-right: 0px;
+}
+/*main*/
+main{
+  margin-top: 85px;
+}
+.inner-heading{
+  font-family: Spectral SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 55px;
+  color: #2E2F22;
+  margin-bottom: 16px;
+}
+.flex-cont{
+  margin-bottom: 50px;
+}
+.tegs-recipes{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(46, 47, 34, 0.7);
+  margin-right: 18px;
+}
+.date-recipes{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(46, 47, 34, 0.7);
+}
+.news-full{
+  margin-bottom: 37px;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+.heart {
+  color: #6653d9;
+  background-image: url(../img/like.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  /*background-position: 12px;*/
+  cursor: pointer;
+}
+.article-post{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2E2F22;
+  margin-bottom: 40px;
+}
+.post-description{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  color: #2E2F22;
+}
+.all-article span{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  color: #2E2F22;
+}
+article{
+  margin-bottom: 65px;
+}
+.comment-list{
+  margin-bottom: 77px;
+}
+.title-comment{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #2E2F22;
+  margin-bottom: 69px;
+}
+.heart {
+  min-width: 50px;
+  min-height: 50px;
+  font-family: inherit;
+  font-weight: bold;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  color: #2E2F22;
+  border: none;
+}
+.likes-number {
+  margin-left: 50px;
+  line-height: 14px;
+  text-align: center;
+}
+.comment-list {
+  padding: 44px 0 49px 101px;
+  list-style: none;
+  counter-reset: comments;
+  background: #ECE1E1;
+  border-radius: 10px;
+}
+.form-controll {
+    background: transparent;
+    border: none;
+    border-bottom:1px solid #2E2F22;
+    outline: none;
+}
+a:active{
+    outline: 0;
+    outline-offset: 0;
+}
+a:hover{
+  outline: 0;
+    outline-offset: 0;
+}
+a:focus{
+  outline: 0;
+    outline-offset: 0;
+}
+.comment-form{
+  padding: 0;
+}
+.comment-field{
+  border: 1px solid #2E2F22;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2E2F22;
+  padding-left: 20px;
+  padding-top: 18px; 
+}
+input{
+  padding-bottom: 15px;
+  margin-bottom: 35px;
+  box-sizing: border-box;
+}
+footer{
+  margin-top: 81px;
+  padding-top: 65px;
+  padding-bottom: 91px;
+  background-color: #D7D1C9;
+}
+.footer-menu li{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #2E2F22;
+}
+ul li a:hover {
+    color: #FF7931;
+}
+.articles-around{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+/**/
+@media (max-width: 1240px){
+  .nav-item {
+    margin-right: 33px;
+}
+  .article-post {
+    font-size: 16px;
+    line-height: 26px;
+    color: #2E2F22;
+    margin-bottom: 38px;
+}
+}
+@media (max-width: 1140px){
+  .article-post {
+    font-size: 16px;
+    line-height: 26px;
+    color: #2E2F22;
+    margin-bottom: 38px;
+}
+}
+@media (max-width: 940px){
+  .footer-menu {
+    flex-direction: row;
+}
+}
+@media (max-width: 768px){
+  header{
+    min-height: 381px;
+  }
+  .logo-IMG{
+    width: 80px;
+    height: 55px;
+  }
+  .comment-list {
+    padding: 34px 0 39px 60px;
+    list-style: none;
+    counter-reset: comments;
+    background: #ECE1E1;
+    border-radius: 10px;
+}
+.tw, .fb, .vk{
+  width: 30px;
+  height: 30px;
+}
+.arrow{
+  width: 50px;
+  height: 9px;
+}
+
+}
+@media (max-width: 576px){
+  .logo-IMG{
+    width: 60px;
+    height: 35px;
+  }
+  header{
+    min-height: 281px;
+  }
+  .article-post{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .nav-flex-icons{
+    flex-direction: row;
+  }
+  .tegs-recipes, .date-recipes{
+    font-size: 10px;
+    line-height: 16px;
+}
+.tw, .fb, .vk{
+  width: 25px;
+  height: 25px;
+}
+.arrow{
+  width: 45px;
+  height: 7px;
+}
+.inner-heading{
+  font-size: 30px;
+  line-height: 45px;
+}
+.all-article span {
+    font-size: 26px;
+    line-height: 30px;
+}
+.user-name{
+  font-size: 0.75rem;
+}
+.user-comment span{
+  font-size: 0.75rem;
+}
+.title-comment {
+    font-size: 20px;
+    line-height: 23px;
+}
+}
+/**/

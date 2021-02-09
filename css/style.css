@@ -1,0 +1,545 @@
+/*body{
+	width: 1440px;
+	margin: 0 auto;
+}*/
+:root{
+    box-sizing: border-box;    
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    transition: .5s ease-in-out;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    width: 100%;
+}
+.container{
+    /*margin: 0 auto;*/
+    /*max-width: 1440px;*/
+}
+.nav-link{
+	font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 25px;
+   color: #2E2F22;
+}
+
+header{
+  background:url(../img/sonnie-hiles-gG70fyu3qsg-unsplash-1.png) no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 581px;
+  box-sizing: border-box;
+  background-position: center center; 
+}
+.nav-item{
+  margin-right: 83px;
+}
+.nav-m{
+  margin-right: 0px;
+}
+.filter {
+    color: #2E2F22;
+    background: #D7D1C9;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    background-image: url(../img/Polygon1.png);
+}
+.filter {
+    display: flex;
+    padding: 12px 53px 12px 20px;
+    box-sizing: border-box;
+    font-size: inherit;
+    border: none;
+    border-radius: 10px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat, repeat;
+    background-position: right 20px top 50%;
+    background-size: 12px auto;
+  }
+.main-article{
+	margin-top: 85px;
+}
+.title-all-articles{
+   font-family: Spectral SC;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 55px;
+   color: #2E2F22;
+}
+.selcls { 
+    padding: 9px; 
+    border: solid 1px #C9302C; 
+    outline: 0; 
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #E78F8D), to(#FFFFFF)); 
+    background: -moz-linear-gradient(top, #FFFFFF, #E78F8D 1px, #FFFFFF 25px); 
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    border-radius:13px;
+    width:150px;
+    } 
+.seldemo {
+  background: #5E9E47;
+  height: 75px;
+  width:250px;
+  border-radius: 15px;
+  padding:20px;
+  font-size:22px;
+  color:#fff;  
+}
+.blog-title{
+	 font-family: Spectral SC;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 27px;
+   color: #2E2F22;
+}
+.blog-description{
+	font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #2E2F22;
+}
+.tegs{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(46, 47, 34, 0.7);
+}
+.time{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(46, 47, 34, 0.7);
+}
+.flex-cont{
+  display: flex;
+  justify-content: space-between;
+}
+.recipes-title, .film-title{
+  font-family: Spectral SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.film-description, .recipes-description{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.mb-62{
+  margin-bottom: 62px;
+}
+.tegs-film, .date-film, .tegs-recipes, .date-recipes{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.card{
+  border: none;
+}
+/*отступы для десктопа, а потом можно задать карточкам классы pl-5, pr-5*/
+.content-82{
+  padding-right: 82px;
+  padding-left: 82px;
+}
+.card-body{
+  padding-top: 27px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+.load-more{
+  padding: 0.5rem 2rem;
+  border-color: #202117;
+  color: #202117;
+  margin-top: 104px;
+}
+/*ОБО МНЕ*/
+.about-me{
+  margin-top: 85px;
+}
+.about-me__title{
+  font-family: Spectral SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 55px;
+  color: #2E2F22;
+  text-align: center;
+  margin-bottom: 49px;
+}
+.paragraf-description{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2E2F22;
+  margin-bottom: 98px;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+.parafraf-cite{
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  color: #2E2F22;
+  border-left:3px solid #D7D1C9;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/*блок ПОРТФОЛИО*/
+.portfolio{
+  margin-top: 85px;
+}
+.portfolio__title{
+   font-family: Spectral SC;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 55px;
+   color: #2E2F22;
+   text-align: center;
+   margin-bottom: 49px;
+}
+.HTMLAcademy-title, .T-L-title{
+  font-family: Spectral SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2E2F22;
+  margin-bottom: 44px;
+}
+.LNK-title{
+  font-family: Spectral SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 44px;
+}
+.HTMLAcademy-title-two, .T-L-title-two{
+  font-family: Spectral SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #2E2F22;
+}
+.LNK-title-two{
+  font-family: Spectral SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.HTMLAcademy-description, .T-L-description{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #2E2F22;
+}
+.LNK-description{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+/*блок НАПИСАТЬ МНЕ*/
+.write-me{
+  margin-top: 85px;
+}
+.write-me__title{
+   font-family: Spectral SC;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 55px;
+   color: #2E2F22;
+   text-align: center;
+   margin-bottom: 49px;
+}
+.load-form{
+  padding: 0.5rem 2rem;
+  border-color: #202117;
+  color: #202117;
+  margin-top: 20px;
+}
+.control-label{
+  font-family: Spectral SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #2E2F22;
+}
+form{
+  margin-left: 65px;
+  margin-right: 65px;
+  padding: 53px 81px 62px 81px;
+  background:url(../img/MaskGroupforma.png) no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center center; 
+  border-radius: 10px; 
+}
+.form-control{
+  border: 1px solid #000000;
+  background: rgba(255, 255, 255, 0.4);
+}
+footer{
+  margin-top: 81px;
+  padding-top: 65px;
+  padding-bottom: 91px;
+  background-color: #D7D1C9;
+}
+.footer-menu li{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #2E2F22;
+}
+ul li a:hover {
+    color: #FF7931;
+}
+.articles-around{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (max-width: 1240px){
+  .nav-item {
+    margin-right: 33px;
+}
+  .paragraf-description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #2E2F22;
+    margin-bottom: 38px;
+}
+  .parafraf-cite{
+    font-size: 20px;
+    line-height: 30px;
+    border-left: 2px solid #D7D1C9;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 1140px){
+  .paragraf-description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #2E2F22;
+    margin-bottom: 38px;
+}
+  .parafraf-cite{
+    font-size: 20px;
+    line-height: 30px;
+    border-left: 2px solid #D7D1C9;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 940px){
+  .footer-menu {
+    flex-direction: row;
+}
+}
+@media (max-width: 768px){
+  header{
+    min-height: 381px;
+  }
+  .logo-IMG{
+    width: 80px;
+    height: 55px;
+  }
+  form{
+    padding: 33px 61px 42px 61px;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+  .parafraf-cite{
+    font-size: 16px;
+    line-height: 20px;
+    border-left: 2px solid #D7D1C9;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /**/
+  .HTMLAcademy-title, .T-L-title{
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 44px;
+}
+.LNK-title{
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 44px;
+}
+.HTMLAcademy-title-two, .T-L-title-two{
+  font-size: 14px;
+  line-height: 24px;
+}
+.LNK-title-two{
+  font-size: 14px;
+  line-height: 24px;
+}
+.HTMLAcademy-description, .T-L-description{
+  font-size: 12px;
+  line-height: 20px;
+}
+.LNK-description{
+  font-size: 12px;
+  line-height: 20px;
+}
+}
+@media (max-width: 576px){
+  
+  .logo-svg{
+    width: 60px;
+    height: 35px;
+  }
+  header{
+    min-height: 281px;
+  }
+  form{
+    padding: 13px 21px 22px 21px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .paragraf-description{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .parafraf-cite{
+    font-size: 16px;
+    line-height: 20px;
+    border-left: 2px solid #D7D1C9;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .recipes-title, .film-title{
+    font-size: 14px;
+    line-height: 20px;
+}
+  .film-description, .recipes-description{
+    font-size: 10px;
+    line-height: 18px;
+}
+  .tegs-film, .date-film, .tegs-recipes, .date-recipes{
+    font-size: 10px;
+    line-height: 16px;
+}
+  .content-82{
+    padding-right: 52px;
+    padding-left: 52px;
+}
+  .mb-sm-5{
+    margin-bottom: 30px;
+}
+.blog-title{
+   font-family: Spectral SC;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 20px;
+   color: #2E2F22;
+}
+.blog-description{
+   font-size: 10px;
+   line-height: 18px;
+   color: #2E2F22;
+}
+.tegs{
+  font-size: 10px;
+  line-height: 16px;
+}
+.date-m{
+  font-size: 10px;
+  line-height: 16px;
+}
+.articles-around{
+  align-items: center;
+}
+/**/
+.HTMLAcademy-title, .T-L-title{
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 44px;
+}
+.LNK-title{
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 44px;
+}
+.HTMLAcademy-title-two, .T-L-title-two{
+  font-size: 12px;
+  line-height: 20px;
+}
+.LNK-title-two{
+  font-size: 12px;
+  line-height: 20px;
+}
+.HTMLAcademy-description, .T-L-description{
+  font-size: 10px;
+  line-height: 16px;
+}
+.LNK-description{
+  font-size: 10px;
+  line-height: 16px;
+}
+}
